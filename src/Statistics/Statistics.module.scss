@@ -1,6 +1,42 @@
-// #4cc7f3
-// #a43cf5
-// #e74b68
-// #20b8c5
-// plum
-// salmon
+.statistics {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.title {
+  text-align: center;
+  color: #50565b;
+}
+
+.statList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  color: #ffffff;
+  padding: 20px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  text-align: center;
+}
+
+.percentage {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
