@@ -14,9 +14,7 @@ const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
     {title && <h2 className={styles.title}>{title.toUpperCase()}</h2>}
 
-    <ul
-      className={styles.statList}
-    >
+    <ul className={styles.statList}>
       {stats.map(({ id, label, percentage }) => {
         return (
           <li

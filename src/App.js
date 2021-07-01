@@ -4,6 +4,9 @@ import Profile from './Profile/Profile';
 import statisticalData from './Statistics/statistical-data.json';
 import Statistics from './Statistics/Statistics';
 
+import friends from './FriendList/friends.json';
+import FriendList from './FriendList/FriendList';
+
 function App() {
   return (
     <>
@@ -17,6 +20,8 @@ function App() {
 
       <Statistics title={'Upload stats'} stats={statisticalData} />
       <Statistics stats={statisticalData} />
+
+      <FriendList friends={friends} />
     </>
   );
 }
